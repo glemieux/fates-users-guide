@@ -31,9 +31,6 @@ System diagram or flowchart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. Interaction diagram of various inputs, outputs, sub systems and dependencies.
 
-v0: Columns are associated with a specific time-since-fire age bin.
-v1: Columns associated with a specific land use type as well
-
 Algorithm or Pseudo code for main components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. Describe your logic in this section.  See https://pypi.org/project/sphinxcontrib-pseudocode/ for links to documentation.
@@ -41,7 +38,9 @@ Algorithm or Pseudo code for main components
 Rollout Plan
 ------------
 .. Define the roll-out phases and tests you plan to do
+
 Initial Steps:
+
 - 0, 1 weighted column
 - split fractional columns and confirm sums across columns
 
@@ -56,6 +55,9 @@ NGEE-A time-since-fire
 Soil temp, moisture, nutrients are the soil states values
 
 active layer = depth things thaw in summer time
+
+v0: Columns are associated with a specific time-since-fire age bin.
+v1: Columns associated with a specific land use type as well
 
 Future Update Plan
 ------------------
