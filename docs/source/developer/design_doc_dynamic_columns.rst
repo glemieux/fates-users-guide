@@ -4,6 +4,7 @@ HLM-FATES Dynamic Columns Design
 Introduction
 ------------
 .. Discuss the design origins, intent and goals.  What is the problem statement?  If there are any specification documents, link them in Appendix.
+
 The goal of this software design update is to allow fates to operate on multiple soil columns on a given gridcell.
 
 Design Considerations
@@ -30,6 +31,8 @@ System diagram or flowchart
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. Interaction diagram of various inputs, outputs, sub systems and dependencies.
 
+v0: Columns are associated with a specific time-since-fire age bin.
+v1: Columns associated with a specific land use type as well
 
 Algorithm or Pseudo code for main components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
