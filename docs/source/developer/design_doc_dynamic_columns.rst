@@ -38,6 +38,21 @@ Algorithm or Pseudo code for main components
 Rollout Plan
 ------------
 .. Define the roll-out phases and tests you plan to do
+Initial Steps:
+- 0, 1 weighted column
+- split fractional columns and confirm sums across columns
+
+NGEE-T land use columns
+- primary land columns and everything else (gross flux)
+- primarylands columns, secondarylands columns (net transitions)
+
+NGEE-A time-since-fire
+- two bins: above and below some age value
+- multiple bins
+
+Soil temp, moisture, nutrients are the soil states values
+
+active layer = depth things thaw in summer time
 
 Future Update Plan
 ------------------
